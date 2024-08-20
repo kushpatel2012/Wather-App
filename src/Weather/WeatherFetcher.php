@@ -5,7 +5,7 @@ namespace App\Weather;
 class WeatherFetcher {
 
     public function fetch(string $city): WeatherInfo {
-        $apiKey = "3648756189abdfdbf104fc7a7f314420";
+        $apiKey = "###";
         $url = "https://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}&units=metric";
 
         // Initialize a cURL session
